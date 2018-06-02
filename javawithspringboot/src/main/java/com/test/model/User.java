@@ -18,6 +18,8 @@ public class User {
 
     private String email;
 
+    private String address;
+
     public Long getId() {
         return id;
     }
@@ -48,5 +50,13 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

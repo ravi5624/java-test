@@ -1,2 +1,4 @@
+com/test/controller/UserController.class
+com/test/dto/UserDto.class
 com/test/model/User.class
 com/test/Main.class
