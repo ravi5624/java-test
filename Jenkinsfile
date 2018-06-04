@@ -5,7 +5,7 @@ pipeline {
         
         stage ('Build') {
             steps {
-                sh 'mvn clean install' 
+                sh 'mvn -f /javawithspringboot/pom.xml install' 
             }
             
         }
