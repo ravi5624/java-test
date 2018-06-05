@@ -7,7 +7,6 @@ pipeline {
             steps {
                 sh 'mvn -f javawithspringboot/pom.xml install' 
             }
-            
         }
         stage('deploy') {
               steps {
