@@ -9,7 +9,7 @@ pipeline {
             }
             
         }
-        stage('Setting the variables values') {
+        stage('deploy') {
             steps {
                  bash '''#!/bin/bash
                          echo "hello world" 
