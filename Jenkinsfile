@@ -10,7 +10,7 @@ pipeline {
         }
         stage('backuping') {
             steps {
-                sh 'scp /home/ravi/Documents/apache-tomcat-8.5.31/webapps/warback.jar /home/ravi/Documents/warbackup/warback.war'
+                sh 'scp /home/ravi/Documents/apache-tomcat-8.5.31/webapps/warback.war /home/ravi/Documents/warbackup/warback.war'
             }
         }
         stage('deploy') {
