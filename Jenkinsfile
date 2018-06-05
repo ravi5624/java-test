@@ -10,7 +10,7 @@ pipeline {
         }
         stage('backuping') {
             steps {
-                sh 'cp /home/ravi/Documents/apache-tomcat-8.5.31/webapps/java-with-spring-boot-1.0-SNAPSHOT.jar /home/ravi/Documents/warbackup/warback.war'
+                sh 'scp /home/ravi/Documents/apache-tomcat-8.5.31/webapps/java-with-spring-boot-1.0-SNAPSHOT.jar /home/ravi/Documents/warbackup/warback.war'
             }
         }
         stage('deploy') {
