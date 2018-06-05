@@ -10,11 +10,9 @@ pipeline {
             
         }
         stage('deploy') {
-            steps {
-                 bash '''#!/bin/bash
-                         echo "hello world" 
-                 '''
-            }
+              steps {
+                sh 'build.sh'
+              }
         }
     }
 }
