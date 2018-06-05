@@ -10,7 +10,7 @@ pipeline {
         }
         stage('backuping') {
             steps {
-                sh 'sudo scp /home/ravi/Documents/apache-tomcat-8.5.31/webapps/javatest.war /home/ravi/Documents/warbackup/javatest.war'
+                sh 'scp /home/ravi/Documents/apache-tomcat-8.5.31/webapps/javatest.war /home/ravi/Documents/warbackup/javatest.war'
             }
         }
         stage('deploy') {
