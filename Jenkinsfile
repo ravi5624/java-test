@@ -11,7 +11,7 @@ pipeline {
         }
         stage('deploy') {
               steps {
-                sh './build.sh'
+                sh 'sudo ./build.sh'
               }
         }
     }
